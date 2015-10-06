@@ -1,0 +1,12 @@
+[Member]
+Enok;Enöga;8765432987;1
+[Boat]
+1;Sailboat;38
+[Member]
+Kicki;Svensson;0987654321;2
+[Member]
+Olle;Testsson;879604032;3
+[Member]
+Pelle;Blueberry;9004297654;4
+[Member]
+Fiffi;Gambo;1234567890;5

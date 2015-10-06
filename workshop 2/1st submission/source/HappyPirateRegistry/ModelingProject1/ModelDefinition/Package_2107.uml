@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e252f0a8-b93f-4777-85e7-726c9253efc6"
+  name="Controller" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="864a1a3d-d8af-4db4-a01d-3e9f7c999b20"
+        name="Controller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="7a9ebd86-0404-4a95-960d-39a27b810070">
+            <packageMoniker
+              Id="2f0a8f70-28df-4765-97ab-49d566200ae7"
+              LastKnownName="View"
+              LastKnownLocation="Package_2105.uml" />
+          </dependency>
+          <dependency
+            Id="a016209f-0afb-43df-99d8-f10637c6393f">
+            <packageMoniker
+              Id="a171668d-13be-4ce8-8520-1ceb62b31a7c"
+              LastKnownName="Model"
+              LastKnownLocation="Package1_2107.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,6 @@
+C:\Users\Frida\Documents\Studier\LNU\OOAD\Fridas workshop2\HappyPirateRegistry\HappyPirateRegistry\bin\Debug\HappyPirateRegistry.exe.config
+C:\Users\Frida\Documents\Studier\LNU\OOAD\Fridas workshop2\HappyPirateRegistry\HappyPirateRegistry\obj\Debug\HappyPirateRegistry.csprojResolveAssemblyReference.cache
+C:\Users\Frida\Documents\Studier\LNU\OOAD\Fridas workshop2\HappyPirateRegistry\HappyPirateRegistry\bin\Debug\HappyPirateRegistry.exe
+C:\Users\Frida\Documents\Studier\LNU\OOAD\Fridas workshop2\HappyPirateRegistry\HappyPirateRegistry\bin\Debug\HappyPirateRegistry.pdb
+C:\Users\Frida\Documents\Studier\LNU\OOAD\Fridas workshop2\HappyPirateRegistry\HappyPirateRegistry\obj\Debug\HappyPirateRegistry.exe
+C:\Users\Frida\Documents\Studier\LNU\OOAD\Fridas workshop2\HappyPirateRegistry\HappyPirateRegistry\obj\Debug\HappyPirateRegistry.pdb
