@@ -17,16 +17,16 @@ namespace HappyPirateRegistry.controller
 
             switch (a_view.userInput())
             {
-                case 0:   //exit
+                case 1:   //exit
                     return false;
 
-                case 1:     //add member
+                case 2:     //add member
                     model.Member memberToAdd = a_view.m_memberView.AddMember();
                     a_model.AddMember(memberToAdd);
                     a_view.ShowGoBackMenu();                    
                     break;
 
-                case 2: //select member
+                case 3: //select member
                     a_view.ShowCompactList(a_model.m_members);
                     int memberToBeselected = a_view.m_memberView.SelectMember();    
                     selectedMember =  a_model.SelectMember(memberToBeselected);
@@ -79,12 +79,12 @@ namespace HappyPirateRegistry.controller
 
                     break;         
                     
-                case 3: //compact list
+                case 4: //compact list
                     a_view.ShowCompactList(a_model.m_members);
                     a_view.ShowGoBackMenu();
                     break;
 
-                case 4: //verbose list
+                case 5: //verbose list
                     a_view.ShowVerboseList(a_model.m_members);
                     a_view.ShowGoBackMenu();
                     break;

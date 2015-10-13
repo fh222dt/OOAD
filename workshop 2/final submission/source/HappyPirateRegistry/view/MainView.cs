@@ -25,17 +25,17 @@ namespace HappyPirateRegistry.view
             Console.WriteLine(" ╚═════════════════════════════════════════╝ ");
             Console.WriteLine("");
             Console.WriteLine("-------------------------------------");
-            Console.WriteLine("0. Exit");
-            Console.WriteLine("1. Add member");
-            Console.WriteLine("2. Update, delete or add boat to member");
+            Console.WriteLine("1. Exit");
+            Console.WriteLine("2. Add member");
+            Console.WriteLine("3. Update, delete or add boat to member");
             Console.WriteLine("");
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("");
-            Console.WriteLine("3. Compact list");
-            Console.WriteLine("4. Verbose list");
+            Console.WriteLine("4. Compact list");
+            Console.WriteLine("5. Verbose list");
             Console.WriteLine("");
             Console.WriteLine("-------------------------------------");
-            Console.WriteLine("Pick your menu choise [0-4]:");
+            Console.WriteLine("Pick your menu choise [1-5]:");
         }
 
         public int VerifyUserInput(int input, int min, int max)
@@ -58,8 +58,9 @@ namespace HappyPirateRegistry.view
             {
                 int i;
                 string input = Console.ReadLine();
+
                 Int32.TryParse(input, out i);
-                inputNumber = VerifyUserInput(i, 0, 4);
+                inputNumber = VerifyUserInput(i, 1, 5);
                 
             } while (inputNumber == 0);
 
