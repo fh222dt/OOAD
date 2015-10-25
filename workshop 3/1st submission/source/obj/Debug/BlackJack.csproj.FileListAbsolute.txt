@@ -1,0 +1,5 @@
+C:\Users\Frida\Documents\Studier\LNU\OOAD\workshop3\blackjack_csharp-master\blackjack_csharp-master\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\Frida\Documents\Studier\LNU\OOAD\workshop3\blackjack_csharp-master\blackjack_csharp-master\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\Frida\Documents\Studier\LNU\OOAD\workshop3\blackjack_csharp-master\blackjack_csharp-master\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\Frida\Documents\Studier\LNU\OOAD\workshop3\blackjack_csharp-master\blackjack_csharp-master\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\Frida\Documents\Studier\LNU\OOAD\workshop3\blackjack_csharp-master\blackjack_csharp-master\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
