@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9c22096b-c323-4a38-adf6-aad7d6672a7b"
+  name="view1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="3785d67e-8e42-428c-8f19-b1011a197087"
+        name="IView"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="b29b6e44-5f65-42ab-bac9-f923ae6be35b">
+            <classMoniker
+              Id="d864d3f6-966d-4742-b55b-3aaeee5f45a6"
+              LastKnownName="Card"
+              LastKnownLocation="Package2_1122.uml" />
+          </dependency>
+        </suppliersInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8f42cd03-8b56-4708-8c4a-b3ebf96d5f90"
+        name="SimpleView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="882732e4-fe33-4400-865c-e6a815f8a821">
+            <interfaceMoniker
+              Id="3785d67e-8e42-428c-8f19-b1011a197087"
+              LastKnownName="IView"
+              LastKnownLocation="Package1_1122.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="c105e086-21b2-4246-8d75-3bb8b2eb2e2a">
+            <enumerationMoniker
+              Id="36014762-788b-46f2-8ee5-e72713f82a70"
+              LastKnownName="EnumMenuChoice"
+              LastKnownLocation="Package1_1122.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="af4456b7-e2e5-43bb-bd20-61d39397b856"
+        name="SwedishView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a88bd95f-4daf-43c1-a534-712efc7cefce">
+            <interfaceMoniker
+              Id="3785d67e-8e42-428c-8f19-b1011a197087"
+              LastKnownName="IView"
+              LastKnownLocation="Package1_1122.uml" />
+          </interfaceRealization>
+          <dependency
+            Id="a1c078ed-d6ba-4c3c-af5b-507e813d2788">
+            <enumerationMoniker
+              Id="36014762-788b-46f2-8ee5-e72713f82a70"
+              LastKnownName="EnumMenuChoice"
+              LastKnownLocation="Package1_1122.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="36014762-788b-46f2-8ee5-e72713f82a70"
+        name="EnumMenuChoice"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
